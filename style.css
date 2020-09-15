@@ -2,8 +2,12 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
+#intro {
+  text-align: center;
+}
+
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid rgb(80, 80, 80);
   border-collapse: collapse;
   font-size: 10pt;
   padding: 2px;
