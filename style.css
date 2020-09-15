@@ -14,9 +14,15 @@ td {
   height: 20vw;
 }
 
+#center-cell {
+  background-image: url("centerheart.png");
+  background-repeat: no-repeat;
+  background-size: 18vw;
+}
+
 .marked-cell {
   background-image: url("heart.png");
   background-repeat: no-repeat;
-  background-size: 18%;
+  background-size: 18vw;
   opacity: 0.9;
 }
