@@ -8,6 +8,8 @@ td {
 }
 
 .marked-cell {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Heart_coraz%C3%B3n.svg");
+  background-image: url("heart.png");
+  background-repeat: no-repeat;
+  background-size: 18vw;
   opacity: 0.9;
 }
