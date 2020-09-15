@@ -1,29 +1,13 @@
-.container {
-    background: black;
-    display: inline-block;
-    border: 2px solid black;
+table, th, td {
+  border: 1px solid black;
 }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(5, 100px);
-    grid-template-rows: repeat(5, 100px);
-    grid-gap: 2px;
-}
-  
-  .cell {
-    /* center the cell content */
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-family: Arial;
-    font-size: 1rem;
-    font-weight: bold;
-    background: white;
-    padding: 5px;
-  }
 
-  .marked-cell {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Heart_coraz%C3%B3n.svg");
-    opacity: 0.8;
-  }
+td {
+  width: 20vw;
+  height: 20vw;
+}
+
+.marked-cell {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Heart_coraz%C3%B3n.svg");
+  opacity: 0.9;
+}
